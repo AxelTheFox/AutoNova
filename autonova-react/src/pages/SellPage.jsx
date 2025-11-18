@@ -21,7 +21,8 @@ function SellPage() {
                 <input type="number" placeholder="Any" className="w-full p-2 border" onChange={e => update('year', e.target.value)} required/>
                 <input type="number" placeholder="Potència (cv)" className="w-full p-2 border" onChange={e => update('power', e.target.value)} required />
                 <input type="number" placeholder="Quilòmetres" className="w-full p-2 border" onChange={e => update('km', e.target.value)} required />
-                <input type="file" multiple onChange={e => update('images', e.target.files)} 
+                <textarea type="textarea" placeholder="Descripció" className="w-full p-2 border" onChange={e => update('description', e.target.value)} required />
+                <input type="file" multiple onChange={e => update('images', e.target.files)}
                 className="text-sm text-stone-500 file:py-1 file:px-3 file:border
                 file:text-xs file:font-medium file:bg-stone-50 file:text-stone-700
                 hover:file:cursor-pointer hover:file:bg-blue-50 hover:file:text-blue-700"
