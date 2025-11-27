@@ -8,7 +8,7 @@ function LoginPage() {
 
     return (
         <div className="p-6 max-w-md mx-auto">
-            <h1 className="text-2xl font-bold mb-4">Iniciar sessió</h1>
+            <h2 className="text-2xl font-bold mb-4">Iniciar sessió</h2>
             <form className="space-y-4">
                 <input type="email" placeholder="Correu" className="w-full p-2 border" onChange={e => setEmail(e.target.value)} />
                 <input type="password" placeholder="Contrasenya" className="w-full p-2 border" onChange={e => setPassword(e.target.value)} />

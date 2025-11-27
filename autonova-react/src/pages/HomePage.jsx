@@ -7,7 +7,7 @@ function HomePage() {
     const [query, setQuery] = useState("");
 
     /*useEffect(() => {
-        fetch("") // Enlace de MongoDB
+        fetch("") // Enllaç de MongoDB
             .then(res = res.json())
             .then(data => setCars(data));
     }, []);*/
